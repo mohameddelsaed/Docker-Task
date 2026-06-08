@@ -1,3 +1,4 @@
+import React from "react";
 function MessageCard({ message }) {
   const date = new Date(message.createdAt).toLocaleString(undefined, {
     dateStyle: "medium",

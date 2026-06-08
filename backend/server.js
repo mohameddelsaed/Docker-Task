@@ -8,7 +8,7 @@ const Message = require("./models/Message");
 const app = express();
 const PORT = process.env.PORT || 5000;
 const MONGODB_URI =
-  process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/message-sharing-app";
+  process.env.MONGODB_URI || "mongodb://mongo:27017/message-sharing-app";
 
 app.use(cors());
 app.use(express.json());

@@ -1,3 +1,4 @@
+import React from "react";
 import MessageCard from "./MessageCard.jsx";
 
 function MessageList({ messages, loading }) {

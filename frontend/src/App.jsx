@@ -1,9 +1,9 @@
+import React from "react";
 import { useEffect, useState } from "react";
 import MessageForm from "./components/MessageForm.jsx";
 import MessageList from "./components/MessageList.jsx";
 
 const API_URL = "http://localhost:5000/messages";
-
 function App() {
   const [messages, setMessages] = useState([]);
   const [loading, setLoading] = useState(true);
