@@ -62,7 +62,7 @@ function App() {
   return (
     <main className="app-shell">
       <section className="hero-panel">
-        <p className="eyebrow">Intern at Zikola</p>
+        <p className="eyebrow">Intern at Zikolaaa</p>
         <h1>Share a message with the world</h1>
         <p className="intro">
           Write something thoughtful, quick, or encouraging. Every saved message
